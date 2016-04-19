@@ -16,6 +16,7 @@ print("Test Cases for Function number 0:")
 print("Is the number 8 even? : " + str(ps0.is_even(8)))
 print("Is the number 43 even? : " + str(ps0.is_even(43)))
 print("Is the number 1 even? : " + str(ps0.is_even(1)))
+print("Is the number 0 even? : " + str(ps0.is_even(0)))
 print("")
 
 
@@ -25,6 +26,7 @@ print("Test Cases for Function number 1:")
 print("The Amount of Digits in the number 56 is: " + str(ps0.num_digits(56)))
 print("The Amount of Digits in the number 376 is: " + str(ps0.num_digits(376)))
 print("The Amount of Digits in the number 4 is: " + str(ps0.num_digits(4)))
+print("The Amount of Digits in the number 0 is: " + str(ps0.num_digits(0)))
 print("")
 
 
@@ -34,6 +36,7 @@ print("Test Cases for Function number 2: ")
 print("The Sum of the Digits in the number 25 is: " + str(ps0.sum_digits(25)))
 print("The Sum of the Digits in the number 876 is: " + str(ps0.sum_digits(876)))
 print("The Sum of the Digits in the number 2 is: " + str(ps0.sum_digits(2)))
+print("The Sum of the Digits in the number 0 is: " + str(ps0.sum_digits(0)))
 print("")
 
 
@@ -43,6 +46,7 @@ print("Test Cases for Function number 3: ")
 print("The Sum of all the numbers less than 5 is: " + str(ps0.sum_less_ints(5)))
 print("The Sum of all the numbers less than 10 is: " + str(ps0.sum_less_ints(10)))
 print("The Sum of all the numbers less than 30 is: " + str(ps0.sum_less_ints(30)))
+print("The Sum of all the numbers less than 0 is: " + str(ps0.sum_less_ints(0)))
 print("")
 
 
