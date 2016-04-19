@@ -13,9 +13,9 @@ print("")
 #Function number 0:
 
 print("Test Cases for Function number 0:")
-print("The Number 8 is: " + str(ps0.is_even(8)))
-print("The Number 43 is: " + str(ps0.is_even(43)))
-print("The Number 1 is: " + str(ps0.is_even(1)))
+print("Is the number 8 even? : " + str(ps0.is_even(8)))
+print("Is the number 43 even? : " + str(ps0.is_even(43)))
+print("Is the number 1 even? : " + str(ps0.is_even(1)))
 print("")
 
 
@@ -40,9 +40,9 @@ print("")
 #Function Number 3:
 
 print("Test Cases for Function number 3: ")
-print("The Sum of all the numbers less than 5 is: " + str(ps0.sum_less_digits(5)))
-print("The Sum of all the numbers less than 10 is: " + str(ps0.sum_less_digits(10)))
-print("The Sum of all the numbers less than 30 is: " + str(ps0.sum_less_digits(30)))
+print("The Sum of all the numbers less than 5 is: " + str(ps0.sum_less_ints(5)))
+print("The Sum of all the numbers less than 10 is: " + str(ps0.sum_less_ints(10)))
+print("The Sum of all the numbers less than 30 is: " + str(ps0.sum_less_ints(30)))
 print("")
 
 
