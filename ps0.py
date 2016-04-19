@@ -8,10 +8,13 @@ def is_even(number):
 
 	'''Returns a value if the number is even or odd'''
 	
+	if number == 0:
+		return True
+	
 	if number % 2 == 0:
-		evenOrOdd = "Even"
+		return True
 	else:
-		evenOrOdd = "Odd"
+		return False
 	
 	return evenOrOdd
 
@@ -21,6 +24,10 @@ def is_even(number):
 def num_digits(y):
 	
 	'''Calculates the amount of digits in a given number'''
+	
+	if y == 0:
+		count = 1
+		return count
     
 	count = 0
 	while y > 0:
@@ -37,6 +44,9 @@ def num_digits(y):
 def sum_digits(n):
 
 	'''Calculates the sum of the digits in a given number'''
+	
+	if n == 0:
+		return n
    
 	s = 0
 	while n:
@@ -49,10 +59,15 @@ def sum_digits(n):
 ###########################################################################	
 
 #Function 3
-def sum_less_digits(num):
+def sum_less_ints(num):
 
 	'''Calculates the sum of all the numbers below the given number'''
 	
+	if num == 0:
+		sum = 0
+		return sum
+	
+	num = num - 1
 	sum = 0
 	while(num > 0):
 		sum += num
@@ -66,6 +81,7 @@ def sum_less_digits(num):
 def factorial(z):
 
 	'''Finds the factorial of a given number'''
+	
 	if z == 0:
 		numero = 1
 		return numero
